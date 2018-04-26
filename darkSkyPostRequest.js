@@ -1,6 +1,6 @@
 const request = require('request');
 
-const darkSkyPostRequest = (key, state, callback) => {
+const darkSkyPostRequest = (key, state) => {
     request.get(
         `https://api.darksky.net/forecast/${key}/${state.lat},${state.lng}`,
         (error, response, body) => {
