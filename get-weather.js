@@ -1,5 +1,5 @@
-const {geoPostRequest} = require('./geoPostRequest');
-const {darkSkyPostRequest} = require('./darkSkyPostRequest');
+const geoPostRequest = require('./geoPostRequest');
+const darkSkyPostRequest = require('./darkSkyPostRequest');
 const {GEOCODING_API_KEY, DARK_SKY_API} = require('./apiKeys');
 
 const city = process.argv[2];
